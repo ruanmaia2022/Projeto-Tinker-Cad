@@ -1,0 +1,93 @@
+.menu h1{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.menu{
+    background-color: white;
+    
+    border:solid;
+display: flex;
+border: solid;
+justify-content: space-between;
+align-items: center;
+
+}
+
+body{
+    background-color: blue;
+  
+
+}
+.links ul{
+    display:flex;
+list-style: none;
+}
+.links a{
+margin: 20px;
+text-decoration: none;
+font-size: 30px;
+color: rgb(6, 21, 34);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteudo{ 
+
+    display: flex;
+justify-content:space-around;
+align-items: center;
+height:  700px;
+
+}
+.conteudo-img img{
+    width: 700px;
+}
+.conteudo-texto{
+    width: 500px;
+
+
+} 
+.conteudo-texto h2{
+    font-size: 50px;
+    color: bisque;
+    margin-bottom: 50px;
+
+} 
+.conteudo-texto p{
+    font-size: 50px;
+    height: 2px;
+    color: aliceblue;
+}
+.card{
+    background-color: white;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+margin-top: 300px;
+}
+.card-conteudo{
+    background-color:white;
+    
+    margin: 50px;
+    border-radius: 60px;
+    
+    
+}
+.card-conteudo img{
+width: 30%;    
+}
+.card-conteudo p{
+    color: black;
+font-size: 40px;
+}
+.card-conteudo h2{
+    color: blue;
+    font-size: 80px;
+    
+}
